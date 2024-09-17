@@ -1,0 +1,277 @@
+ /* ====== INICIO TRICICLO ======== */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+ *
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255,255,255, 0.2);
+    border:1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!---------   01 ok ---->*/
+.card-lists .card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!---------   01 ok ---->*/
+
+/*!-------  Artistas circular sin uso  ----->*
+
+}.card-list .card-item .user-image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+/*!---------  Artistas circular sin uso ----->*/
+
+/*!-----ok ---->*/
+.card-lists .card-item .user-image {
+    width: 190px;
+    height: 140px;
+    border-radius: 0%;
+    margin-bottom: 40px;
+    border: 3px solid #ffffff;    ;;;;;; /*! ;; RECTANGULO ;;;;;;;->*/
+    padding: 4px;
+}
+/*!-----ok ---->*/
+
+
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok ---->*/
+.card-lists .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok ---->*/
+
+
+
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+/*!---------   01 ok ---->*/
+.card-lists .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgb(32, 89, 104);
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+/*!---------   01 ok ---->*/
+
+
+/*!--------- inicio buttom hover Inicio   ------->*/
+.card-list .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.card-lists .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+/*!---------  final buttom hover   ------->*/
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slider-button{
+    color: #fff;
+    margin-top: -22px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slider-button:hover{
+    color: #4658ff;
+}
+
+
+/* ======MEDIA QUERIES======== */
+
+@media (max-widht:768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+}
+
+    .slider-wrapper .swiper-slider-button{
+        display: none;
+    }
+}
+/* ====== FINAL TRICICLO ======== */
+
+
+
+
+/*------inicio  new ayudanos-videos youtube  - artistas ------*/
+
+.all-products {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.5);
+	width: 320px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+}
+
+
+.product1 {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+	width: 290px;
+	height: 400px;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+}
+
+.product .product-title, .product .product-price {
+	font-size: 18px;
+}
+
+.message-button {
+    width: 100%;
+    height: 25px;
+    box-shadow: 5px 15px 25px #dad9d9;
+    transition: all 0.3s;
+}
+
+.product:hover img {
+	scale:  1.1;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product a:link, .product a:visited {
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: hsl(189, 48%, 46%);
+	padding: 1.0rem 1rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 15px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+/*------final  new ayudanos-videos youtube  -- artistas ------*/
+
+
+
+/*!------ inicio: tape zeno ---- ok -->*/
+.casuales img{
+    position: fixed;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: 1%;
+    top: 6%; 
+    z-index: 1;
+}
+/*!------Final: tape zeno ---- ok -->*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
